@@ -1,3 +1,6 @@
 FROM php:7.2.21-apache-buster
 
-USER www-data
+WORKDIR /var/www/html/
+COPY ./ ./
+# USER 33
+# USER www-data
